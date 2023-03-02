@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newsdepartment</title>
+</head>
+<body>
+    <h1>新聞部</h1>
+<p ID="1">假設某個人在IG追蹤你，你第一眼會注意到他的什麼地方?</p>
+<form id="f1" required>
+  <input type="radio" name="answer" value="ph" data-score="1"> A. IG帳號的大頭貼
+  <br>
+  <br>
+  <input type="radio" name="answer" value="pu" data-score="2"> B. 是否有共同追蹤好友
+  <br>
+  <br>
+  <input type="radio" name="answer" value="me" data-score="3"> C. 貼文排版與質感
+  <br>
+  <br>
+  <input type="radio" name="answer" value="mi" data-score="4"> D. 精選動態內容
+  <br>
+</form>
+<p id="2" style="display:none;">如果你要看一場展覽，你會選擇什麼樣的交通工具？</p>
+<form id="f2" style="display:none;" required>
+  <input type="radio" name="answer" value="me" data-score="1"> A. 搭輕軌
+  <br>
+  <br>
+  <input type="radio" name="answer" value="ph" data-score="2"> B. 走路
+  <br>
+  <br>
+  <input type="radio" name="answer" value="pu" data-score="3"> C. 搭捷運
+  <br>
+  <br>
+  <input type="radio" name="answer" value="mi" data-score="4"> D. 騎腳踏車
+  <br>
+</form>
+  <p id="3" style="display:none;">如果你在使用Canva，會特別注意什麼部分？</p>
+<form id="f3" style="display:none;" required>
+  <input type="radio" name="answer" value="pu" data-score="1"> A. 整體呈現的受眾感受
+  <br>
+  <br>
+  <input type="radio" name="answer" value="mi" data-score="2"> B. 資訊傳遞是否簡潔明瞭
+  <br>
+  <br>
+  <input type="radio" name="answer" value="me" data-score="3"> C. 排版的主題配色
+  <br>
+  <br>
+  <input type="radio" name="answer" value="ph" data-score="4"> D. 主題搭配的照片選擇
+  <br>
+</form>
+  <p id="4" style="display:none;">如果去網美咖啡廳拍了一張精緻的甜點照，你會在發限時動態前採取什麼動作？</p>
+<form id="f4" style="display:none;" required>
+  <input type="radio" name="answer" value="ph" data-score="1"> A. 注意甜點照片的品質
+  <br>
+  <br>
+  <input type="radio" name="answer" value="me" data-score="2"> B. 挑選適合拍攝的濾鏡
+  <br>
+  <br>
+  <input type="radio" name="answer" value="pu" data-score="3"> C. 標註一起來的好友
+  <br>
+  <br>
+  <input type="radio" name="answer" value="mi" data-score="4"> D. 整體圖片與文字的排版
+  <br>
+</form>
+<h1 id="h1"></h1>
+<button type="button" id="btnext" >下一題</button>
+<button type="button" id="btn" style="display:none;">提交</button>
+  <button type="button" ><a href="index.html">回到上一頁</a></button>
+  <p id="result"></p>
+<script src="scriptfornews.js"></script>
+</body>
+</html>

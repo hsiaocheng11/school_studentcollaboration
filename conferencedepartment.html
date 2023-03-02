@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newsdepartment</title>
+</head>
+<body>
+    <h1>會務部</h1>
+<p ID="1">當你意外得到一筆財富時，你會怎麼處理?</p>
+<form id="f1" required>
+  <input type="radio" name="answer" value="money" data-score="1"> A. 先做金錢規劃
+  <br>
+  <br>
+  <input type="radio" name="answer" value="sec" data-score="2"> B. 先投資購買股票
+  <br>
+  <br>
+  <input type="radio" name="answer" value="god" data-score="3"> C. 先購買日常必需品
+  <br>
+</form>
+<p id="2" style="display:none;">當你要出門約會，會選擇穿什麼樣的衣服？</p>
+<form id="f2" style="display:none;" required>
+  <input type="radio" name="answer" value="money" data-score="1"> A. 小巧可愛的針織衫
+  <br>
+  <br>
+  <input type="radio" name="answer" value="god" data-score="2"> B. 正式大氣的正裝
+  <br>
+  <br>
+  <input type="radio" name="answer" value="sec" data-score="3"> C. 大方簡潔的襯衫
+  <br>
+</form>
+  <p id="3" style="display:none;">聰明的你較喜歡或較擅長用什麼樣的電腦軟體？</p>
+<form id="f3" style="display:none;" required>
+  <input type="radio" name="answer" value="money" data-score="1"> A. Excel 
+  <br>
+  <br>
+  <input type="radio" name="answer" value="god" data-score="2"> B. PPT
+  <br>
+  <br>
+  <input type="radio" name="answer" value="sec" data-score="3"> C. Word
+  <br>
+</form>
+  <p id="4" style="display:none;">如果在一次的分組報告中，你會喜歡扮演什麼樣的角色？</p>
+<form id="f4" style="display:none;" required>
+  <input type="radio" name="answer" value="sec" data-score="1"> A. 蒐集與整理資料
+  <br>
+  <br>
+  <input type="radio" name="answer" value="money" data-score="2"> B. 分析資料趨勢與結果
+  <br>
+  <br>
+  <input type="radio" name="answer" value="god" data-score="3"> C. 呈現報告與分享成果 
+  <br>
+</form>
+<h1 id="h1"></h1>
+<button type="button" id="btnext" >下一題</button>
+<button type="button" id="btn" style="display:none;">提交</button>
+  <button type="button" ><a href="index.html">回到上一頁</a></button>
+  <p id="result"></p>
+<script src="scriptforconference.js"></script>
+</body>
+</html>

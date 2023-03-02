@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>活動部</h1>
+<p ID="1">當你參加演唱會時，你會先注意到哪一部分？</p>
+<form id="f1" required>
+  <input type="radio" name="answer" value="adm" data-score="1"> A. 吸睛的舞台設計
+  <br>
+  <br>
+  <input type="radio" name="answer" value="sl" data-score="2"> B. 華麗的會場佈置
+  <br>
+  <br>
+  <input type="radio" name="answer" value="sc" data-score="3"> C. 絢爛的燈光音效
+  <br>
+  <br>
+  <input type="radio" name="answer" value="fe" data-score="4"> D. 座位安排與逃生路線
+  <br>
+</form>
+<p id="2" style="display:none;">如果你是海底生物，你會想當海底生物裡面的哪一種動物？</p>
+<form id="f2" style="display:none;" required>
+  <input type="radio" name="answer" value="sl" data-score="1"> A. 海犀牛
+  <br>
+  <br>
+  <input type="radio" name="answer" value="sc" data-score="2"> B. 燈籠魚
+  <br>
+  <br>
+  <input type="radio" name="answer" value="adm" data-score="3"> C. 海綿
+  <br>
+  <br>
+  <input type="radio" name="answer" value="fe" data-score="4"> D. 鯨魚
+  <br>
+</form>
+  <p id="3" style="display:none;">放學過後，你覺得哪一種休閒運動最吸引你？</p>
+<form id="f3" style="display:none;" required>
+  <input type="radio" name="answer" value="sc" data-score="1"> A. 跳舞
+  <br>
+  <br>
+  <input type="radio" name="answer" value="sl" data-score="2"> B. 瑜珈
+  <br>
+  <br>
+  <input type="radio" name="answer" value="fe" data-score="3"> C. 重訓
+  <br>
+  <br>
+  <input type="radio" name="answer" value="adm" data-score="4"> D. 撞球
+  <br>
+</form>
+  <p id="4" style="display:none;">在悠閒的假日午後，你會選擇做什麼休閒活動？</p>
+<form id="f4" style="display:none;" required>
+  <input type="radio" name="answer" value="sl" data-score="1"> A. 畫畫
+  <br>
+  <br>
+  <input type="radio" name="answer" value="adm" data-score="2"> B. 看電影解說
+  <br>
+  <br>
+  <input type="radio" name="answer" value="sc" data-score="3"> C. 聽團
+  <br>
+  <br>
+  <input type="radio" name="answer" value="fe" data-score="4"> D. 運動
+  <br>
+</form>
+<h1 id="h1"></h1>
+<button type="button" id="btnext" >下一題</button>
+<button type="button" id="btn" style="display:none;">提交</button>
+  <button type="button" ><a href="index.html">回到上一頁</a></button>
+  <p id="result"></p>
+<script src="scriptforactivity.js"></script>
+</body>
+</html>
