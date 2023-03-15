@@ -71,21 +71,23 @@ btn.addEventListener("click", function() {
   let textforrain = "";
   let smallTalk = "";
   let img = document.getElementById('img')
+  let img2 = document.getElementById('img2')
   if (maxKey == "money") {
     textforresult = "財務組長";
     textforrain = "你是個有耐心、腳踏實地的人。精通財務處理的你總是能把錢管理的有條不紊。在學生會裡，你適合擔任的角色是會務部財務組長。";
     let smallTalk = "儘管財務的工作不僅僅只是收錢，但相信你們都能在所有工作中找到樂趣！";
-    img.src = "";
+    img.src = "./img/money.PNG";
   } else if (maxKey == "god") {
     textforresult = "會務部長";
     textforrain = "你是個細心的人。適合從事文書工作的你總是能在文字間找到自我的歸屬。在學生會裡，你適合擔任的角色是正副會務部長。";
     let smallTalk = "穩如泰山的你，會務部就是你的星群，即使不如其他部組活躍如明月，也能做一顆引導方向的北極星。";
-    img.src = "";
+    img.src = "./img/god.PNG";
+    img2.src= "./img/god2.PNG";
   } else {
     textforresult = "秘書組長";
     textforrain = "你是個統整能力好的人。擅長文字工作的你總是能夠系統性的整理人事資料、處理各式表格。在學生會裡，你適合擔任的角色是會務部秘書組長。";
     let smallTalk = "這個世界需要的是一位真正會跑腿、會整理資料的秘書人，當然首先腦袋不能抽筋。";
-    img.src = "";
+    img.src = "./img/sec.png";
   }
   img.style.display = "block"
     let small_talk = document.getElementById('small talk')

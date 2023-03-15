@@ -74,6 +74,7 @@ btn.addEventListener("click", function() {
   let textforrain = "";
   let smallTalk = "";
   let img = document.getElementById('img')
+  let img2 = document.getElementById('img2')
   if (maxKey == "pu") {
     textforresult = "公關組長";
     textforrain = "你是個喜歡參與社交活動的人，在陌生場合裡總是可以迅速的和他人打好關係。在學生會裡，你適合擔任的角色是新聞部公關組長。";
@@ -88,12 +89,13 @@ btn.addEventListener("click", function() {
     textforresult = "媒體組長";
     textforrain = "你是個容易對生活週遭事物美感產生共鳴的人。看到海報或文宣，第一眼關注的總是總體呈現的排版、美編。在學生會裡，你適合擔任的角色是新聞部媒體組長。";
     smallTalk = "排版美編畫個圖，媒體組長是宣傳的重要角色，適合想成為幕後推手的你呦！";
-    img.src = "";
+    img.src = "./img/me.png";
   } else {
     textforresult = "新聞部部長";
     textforrain = "你是個擅長使用社群媒體的人，也喜歡在網路上分享自己生活的瑣事。在學生會裡中，你適合擔任的角色是學生會正副新聞部長。";
     smallTalk = "在這個資訊流通快速的時代，你將扮演一個爲大家傳遞第一手資訊的重要角色。準備好的話就一起出發吧！";
     img.src = "./img/mi.PNG";
+    img2.src= "./img/mi2.png";
   }
   img.style.display = "block"
     let small_talk = document.getElementById('small talk')

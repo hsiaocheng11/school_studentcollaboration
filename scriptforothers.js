@@ -73,16 +73,18 @@ btn.addEventListener("click", function() {
   let textforrain = "";
   let smallTalk = "";
   let img = document.getElementById('img')
+  let img2 = document.getElementById('img2')
   if (maxKey == "sp") {
     textforresult = "學權部長";
     textforrain = "你是個思維能夠跳脫框架的人。在面對不公時總是能夠透過行動改變現況，促成現有問題得以改善與解決。在學生會裡，你適合擔任的角色是正副學權部長。";
     smallTalk = "「學權是實踐，不是空想。」在腦海書寫藍圖時，別忘了腳步也要跟上喔！";
-    img.src = "";
+    img.src = "./img/sp.png";
+    img2.src= "./img/sp2.PNG";
   } else if (maxKey == "re") {
     textforresult = "學生代表";
     textforrain = "你是個愛好參與公共事務的人。你喜歡聆聽大眾的想法，也喜歡透過直接管道與他人進行平等對話。在學生自治中，你適合擔任的角色是學生代表。";
     smallTalk = "你覺得冷氣不涼？你覺得學校的雜草太多？只要影響到學生的，都可以和我們反應！";
-    img.src = "";
+    img.src = "./img/re.png";
   } else if (maxKey == "pr") {
     textforresult = "會長";
     textforrain = "你是個有領導力、正向思維的人。在群體裡你總是挺身扛著所有壓力，做著領導群體的工作。在學生會裡中，你適合擔任的角色是學生會正副會長。";
@@ -92,7 +94,7 @@ btn.addEventListener("click", function() {
     textforresult = "議員";
     textforrain = "你是個有著批判性思維的人。在參加活動後總是能抓住背後欲傳達之意義，提出自己獨特的見解。在學生會裡，你適合擔任的角色是學生議員。";
     smallTalk = "你們的預算案交了沒？會長！你是不是又忘記交什麼東西了？都做到這個位置上了，可不可以好好做事";
-    img.src = "";
+    img.src = "./img/mp.png";
   }
   img.style.display = "block"
     let small_talk = document.getElementById('small talk')

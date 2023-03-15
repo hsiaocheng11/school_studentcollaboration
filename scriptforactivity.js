@@ -73,11 +73,13 @@ btn.addEventListener("click", function() {
   let textforrain = "";
   let smallTalk = "";
   let img = document.getElementById('img')
+  let img2 = document.getElementById('img2')
   if (output.adm == 1 && output.fe == 1 && output.sc == 1 && output.sl == 1) {
     textforresult = "活動部部長";
     textforrain = "你是個扛壓性很高、對很多事情有著不同想像的人。在學生自治系統中，你適合擔任的角色是正副活動部長。";
     smallTalk = "身為全活動的總負責人需要扛起一切事務！希望你能在永遠有活動的高師大附中，一起「呵，長大了」";
     img.src = "./img/act.jpg";
+    img2.src= "./img/act2.JPG";
   } else if (maxKey == "adm") {
     textforresult = "行政組長";
     textforrain = "你是個想法天馬行空的人。富有創造力的你常常在看劇時為角色腦補許多劇情。在學生自治系統中，你適合擔任的角色是活動部行政組長。";
