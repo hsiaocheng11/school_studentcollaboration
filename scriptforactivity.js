@@ -100,7 +100,7 @@ btn.addEventListener("click", function() {
     textforresult = "場器組長";
     textforrain = "你是個有責任感的人，總是喜歡默默承擔很多事，在看到周圍的人有難時也毫不吝嗇的出力幫忙。在學生自治系統中，你適合擔任的角色是活動部場器組長。";
     smallTalk = "你以為我們都很壯？哈哈，我們可不是力壯雞耶！";
-    img.src = "";
+    img.src = "./img/fe.PNG";
   }
   img.style.display = "block"
   let small_talk = document.getElementById('small talk')

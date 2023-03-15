@@ -91,6 +91,8 @@ btn.addEventListener("click", function() {
     textforrain = "你是個有領導力、正向思維的人。在群體裡你總是挺身扛著所有壓力，做著領導群體的工作。在學生會裡中，你適合擔任的角色是學生會正副會長。";
     smallTalk = "你已經想好承擔這一切了嗎？你扛的永遠不會只有一個責任，而是103個人的責任喔！";
     img.src = "./img/pr.PNG";
+    img2.src="./img/pr2.JPG";
+    img2.style.display = "block"
   } else {
     textforresult = "議員";
     textforrain = "你是個有著批判性思維的人。在參加活動後總是能抓住背後欲傳達之意義，提出自己獨特的見解。在學生會裡，你適合擔任的角色是學生議員。";
