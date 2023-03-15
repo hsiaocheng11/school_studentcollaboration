@@ -1,53 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>學生自治角色測驗</title>
+  <style>
+    @font-face {
+      font-family: 'Noto Serif TC';
+      src: url('./font/NotoSerifTC-SemiBold.otf');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    h1,
+    h2 {
+      font-weight: 400;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Serif TC', Arial, sans-serif;
+      font-size: 10px;
+      background-image: url("img/indexv2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .container {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 4rem;
+      margin-top: 50px;
+
+    }
+
+    blockquote {
+      font-size: 1.7rem;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      line-height: 2;
+    }
+
+    button {
+      font-family: 'Noto Serif TC', Arial, sans-serif;
+      background-color: #333;
+      color: #FFF;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 5rem;
+      display: block;
+      margin: 40px auto;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    button[type="button"]:hover {
+      background-color: #666;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    .container {
+      opacity: 0;
+    }
+
+    .container {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>這是一個簡單的小測驗</h1>
-  <p id="1">當你走進一新書局，你第一眼會注意到什麼種類的書籍?</p>
-  <form id="f1" required>
-    <input type="radio" name="answer" value="aplusn"> A. 色彩豐富的兒童繪本
-    <br>
-    <br>
-    <input type="radio" name="answer" value="aplusn"> B. 圖文並茂的報章雜誌
-    <br>
-    <br>
-    <input type="radio" name="answer" value="oplusc"> C. 有條不紊的百科全書
-    <br>
-    <br>
-    <input type="radio" name="answer" value="oplusc"> D. 論點特殊的個人作品
-    <br>
-  </form>
-  <p id="2" style="display:none;">當你拿到一份文件，你會先注意到什麼？</p>
-  <form id="f2" style="display:none;" required>
-    <input type="radio" name="answer" value="cplusn"> A. 內容排版舒適度
-    <br>
-    <br>
-    <input type="radio" name="answer" value="apluso"> B. 主題內容創意程度
-    <br>
-    <br>
-    <input type="radio" name="answer" value="cplusn"> C. 文字流暢與精簡程度
-    <br>
-    <br>
-    <input type="radio" name="answer" value="apluso"> D. 發想的意義宗旨
-    <br>
-  </form>
-  <h1 id="h1"></h1>
-  <button type="button" id="btnext" >下一題</button>
-  <button type="button" id="btn" style="display:none;">提交</button>
-  <button type="button" id="next" style="display:none;">
-    <a href=""></a>
-  </button>
-  <p id="result"></p>
+  <div class="container" id="my-element">
+    <h1>你適合學生會裡的哪種幹部</h1>
+    <blockquote>
+      <h2>「能有學生自治，都是前輩們辛苦奮鬥而來的。」</h2>
+      <br>
+      學生本身即是一團可塑性極佳的麵團
+      <br>
+      每個麵團都有自己潛在的不同特質
+      <br>
+      倘若每個麵團都照著標準流程製作
+      <br>
+      那不就剝奪麵團成為多元且高價值麵包的機會了嗎？
+      <br>
+      <br>
+      學生必須自主地產生權利意識
+      <br>
+      自發地發現教育場域隱藏的不合理且不公義
+      <br>
+      否則存在的不公不會自己被解決。
+      <br>
+      <br>
+      學生們應該自己捍衛這些由汗水與血液促成來之不易的自由
+      <br>
+      並親手爭取、捍衛屬於自己的權利。
+      <br>
+      <br>
+      想要知道在學生自治中，你最適合擔任什麼角色嗎？
+      <br>本次測驗將揭露你的適任職位，請依心中直覺選出你的答案。
+    </blockquote>
+    <button onclick="location.href='page2.html'">開始作答</button>
+    <footer>
+      <p>作者：Hsiaochengyu 作者：蔡博竣 作者：周紘毅 日期：2023年3月8日 版權所有 © 2023 Hsiaocheng_JimmyTsai</p>
 
-  <script src="script.js"></script>
+    </footer>
+  </div>
+  <script src="scriptforindex.js"></script>
 </body>
 
 </html>
