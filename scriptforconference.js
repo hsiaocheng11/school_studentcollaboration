@@ -83,6 +83,7 @@ btn.addEventListener("click", function() {
     let smallTalk = "穩如泰山的你，會務部就是你的星群，即使不如其他部組活躍如明月，也能做一顆引導方向的北極星。";
     img.src = "./img/god.PNG";
     img2.src= "./img/god2.PNG";
+    img2.style.display = "block"
   } else {
     textforresult = "秘書組長";
     textforrain = "你是個統整能力好的人。擅長文字工作的你總是能夠系統性的整理人事資料、處理各式表格。在學生會裡，你適合擔任的角色是會務部秘書組長。";

@@ -80,6 +80,7 @@ btn.addEventListener("click", function() {
     smallTalk = "身為全活動的總負責人需要扛起一切事務！希望你能在永遠有活動的高師大附中，一起「呵，長大了」";
     img.src = "./img/act.jpg";
     img2.src= "./img/act2.JPG";
+    img2.style.display = "block"
   } else if (maxKey == "adm") {
     textforresult = "行政組長";
     textforrain = "你是個想法天馬行空的人。富有創造力的你常常在看劇時為角色腦補許多劇情。在學生自治系統中，你適合擔任的角色是活動部行政組長。";

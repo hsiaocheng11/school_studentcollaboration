@@ -96,6 +96,7 @@ btn.addEventListener("click", function() {
     smallTalk = "在這個資訊流通快速的時代，你將扮演一個爲大家傳遞第一手資訊的重要角色。準備好的話就一起出發吧！";
     img.src = "./img/mi.PNG";
     img2.src= "./img/mi2.png";
+    img2.style.display = "block"
   }
   img.style.display = "block"
     let small_talk = document.getElementById('small talk')

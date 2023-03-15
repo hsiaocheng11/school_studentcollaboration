@@ -80,6 +80,7 @@ btn.addEventListener("click", function() {
     smallTalk = "「學權是實踐，不是空想。」在腦海書寫藍圖時，別忘了腳步也要跟上喔！";
     img.src = "./img/sp.png";
     img2.src= "./img/sp2.PNG";
+    img2.style.display = "block"
   } else if (maxKey == "re") {
     textforresult = "學生代表";
     textforrain = "你是個愛好參與公共事務的人。你喜歡聆聽大眾的想法，也喜歡透過直接管道與他人進行平等對話。在學生自治中，你適合擔任的角色是學生代表。";
