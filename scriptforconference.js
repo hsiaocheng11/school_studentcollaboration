@@ -88,7 +88,7 @@ btn.addEventListener("click", function() {
     textforresult = "秘書組長";
     textforrain = "你是個統整能力好的人。擅長文字工作的你總是能夠系統性的整理人事資料、處理各式表格。在學生會裡，你適合擔任的角色是會務部秘書組長。";
     let smallTalk = "這個世界需要的是一位真正會跑腿、會整理資料的秘書人，當然首先腦袋不能抽筋。";
-    img.src = "./img/sec.png";
+    img.src = "./img/sec.PNG";
   }
   img.style.display = "block"
     let small_talk = document.getElementById('small talk')

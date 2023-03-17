@@ -78,8 +78,8 @@ btn.addEventListener("click", function() {
     textforresult = "活動部部長";
     textforrain = "你是個扛壓性很高、對很多事情有著不同想像的人。在學生自治系統中，你適合擔任的角色是正副活動部長。";
     smallTalk = "身為全活動的總負責人需要扛起一切事務！希望你能在永遠有活動的高師大附中，一起「呵，長大了」";
-    img.src = "./img/act.jpg";
-    img2.src= "./img/act2.JPG";
+    img.src = "./img/act.PNG";
+    img2.src= "./img/act2.PNG";
     img2.style.display = "block"
   } else if (maxKey == "adm") {
     textforresult = "行政組長";

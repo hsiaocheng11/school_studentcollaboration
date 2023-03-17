@@ -79,7 +79,7 @@ btn.addEventListener("click", function() {
     textforresult = "公關組長";
     textforrain = "你是個喜歡參與社交活動的人，在陌生場合裡總是可以迅速的和他人打好關係。在學生會裡，你適合擔任的角色是新聞部公關組長。";
     smallTalk = "班宣跟對外接洽很辛苦，給別人微笑的同時，也不要忘記偶爾對自己笑一個喔";
-    img.src = "./img/pu.JPG";
+    img.src = "./img/pu.PNG";
   } else if (maxKey == "ph") {
     textforresult = "攝影組長";
     textforrain = "你是個觀察力十足的人。你喜歡記錄生活中美好的事情，看到風景時也總是想著要怎麼紀錄下這美好的瞬間。在學生會裡，你適合擔任的角色是新聞部攝影組長。";
@@ -95,7 +95,7 @@ btn.addEventListener("click", function() {
     textforrain = "你是個擅長使用社群媒體的人，也喜歡在網路上分享自己生活的瑣事。在學生會裡中，你適合擔任的角色是學生會正副新聞部長。";
     smallTalk = "在這個資訊流通快速的時代，你將扮演一個爲大家傳遞第一手資訊的重要角色。準備好的話就一起出發吧！";
     img.src = "./img/mi.PNG";
-    img2.src= "./img/mi2.png";
+    img2.src= "./img/mi2.PNG";
     img2.style.display = "block"
   }
   img.style.display = "block"
